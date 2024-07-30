@@ -1,0 +1,16 @@
+version: 2
+
+sources :
+  - name : dbnps
+    schema: bronze
+    tables:
+#      Gerenerate model
+      - name : Base_NPSPagina1
+        description: "Tabela que contem dados de NPS"
+        columns :
+          - name : nota
+            description: "Nota NPS"
+          - name : escola
+            description: "Escola que recebeu o NPS"
+          - name : unidade
+            description: "Unidade da Escola"
