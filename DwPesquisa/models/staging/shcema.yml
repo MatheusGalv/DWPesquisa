@@ -1,0 +1,12 @@
+version : 2
+
+models :
+  - name : stg_NPS
+    description: "Tabela de staging para dados de NPS"
+    columns :
+      - Name : NPS
+        description: "Nota de NPS em formato de NPS"
+      - Name : Escola
+        description: "escola que recebu nota com Escola"
+      - Name : Unidade
+        description: "unidade da escola como Unidade"
