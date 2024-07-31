@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dm_NPS
+    description: "Datamart para a tabela de NPS Calculado"
+    columns:
+      - name: Escola
+        description: "Escola que recebeu o NPS"
+      - name: Unidade
+        description: "Unidade da Escola"
+      - name: NPS_Calculado
+        description: "NPS da Escola Calculado"

@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 -- Importar dados
 WITH source AS (
     SELECT 
